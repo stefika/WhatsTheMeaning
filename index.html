@@ -20,13 +20,19 @@
         <textarea id="input">OMG!!! The house is on fire and the cat is eating all the donuts!</textarea>
         <br><br>
 
-        <label id="translation">emoji translation goes here</label>
+        <button onclick="myFunction()">Click me</button>
+
+        <p id="demo"></p>
+
+        <script>
+            var translate = emoji.find('♥');
+            var emoji = JSON.stringify(translate);
+
+            function myFunction() {
+                document.getElementById("demo").innerHTML = emoji;
+            }
+        </script>
     </div>
 
 </body>
 </html>
-
-<script>
-        var translate = require('moji-translate');
-        document.getElementById("translation").innerHTML = translate.getAllEmojiForWord('eye');
-</script>
