@@ -1,9 +1,9 @@
 var emoji = require("node-emoji");
+var readline = require("readline");
 
-if (emoji.hasEmoji('🍕') == true){
-    var emoji = prompt("Enter your emoji please."); //Need to implement readline function
-    console.log(emoji.find(emoji));
-}
-else{
-    console.log("This emoji in no availibe yet, sorry 😢");
+var rl = readline.createInterface(process.stdin, process.stdout);
+
+rl.question("Enter your emoji please: "), function(answer){
+    var emo = "💻";
+    console.log(emoji.find(emo));
 }
