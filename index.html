@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>WhatsTheMeaning (of this?)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="bundle.js"></script>
 </head>
 <body>
 
@@ -17,20 +18,12 @@
         <h1>WhatsTheMeaning? 🏳‍🌈</h1>
         <h2>Do you alwas understand meaning of your friend's message? No? Try this!</h2>
 
-        <textarea id="input">OMG!!! The house is on fire and the cat is eating all the donuts!</textarea>
+        <textarea id="input">🔥</textarea>
         <br><br>
 
-        <button onclick="myFunction()">Click me</button>
+        <button onclick="clickEvent()">Translate</button>
 
         <p id="demo"></p>
-
-        <script>
-            var translate = emoji.find('😥');
-
-            function myFunction() {
-                document.getElementById("demo").innerHTML = translate;
-            }
-        </script>
     </div>
 
 </body>
