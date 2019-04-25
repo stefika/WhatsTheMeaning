@@ -2,7 +2,7 @@
 var emoji = require("node-emoji");
 var $ = require("jquery");
 
-function clickEvent(){
+function klik(){
     
     var val = $.trim($("textarea").val());
       if (val != "") {
