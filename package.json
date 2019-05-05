@@ -1,0 +1,23 @@
+{
+  "name": "whatsthemeaning",
+  "version": "1.0.0",
+  "description": "Simple emoji translate website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasRoj/WhatsTheMeaning.git"
+  },
+  "keywords": [
+    "emoji",
+    "translate"
+  ],
+  "author": "Tomas Roj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomasRoj/WhatsTheMeaning/issues"
+  },
+  "homepage": "https://github.com/TomasRoj/WhatsTheMeaning#readme"
+}
